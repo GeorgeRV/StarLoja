@@ -7,24 +7,24 @@
 
 @font-face {
   font-family: Starjedi;
-  src: url(fonts/starjedi/Starjedi.ttf);
+  src: url(../fonts/starjedi/Starjedi.ttf);
 }
 
 @font-face {
   font-family: Starjout;
-  src: url(fonts/starjout/Starjout.ttf);
+  src: url(../fonts/starjout/Starjout.ttf);
 }
 
 @font-face {
   font-family: Stjedise;
-  src: url(fonts/stjedise/STJEDISE.TTF);
+  src: url(../fonts/stjedise/STJEDISE.TTF);
 }
 
 body{
 	margin: 0;
 	padding: 0;
 	background-attachment: fixed;
-    background-image: url("images/fundo_vader.jpg");
+    background-image: url("../images/fundo_vader.jpg");
     background-repeat: repeat-x;
     background-size: cover;
 	font-family: Starjedi, Arial;
