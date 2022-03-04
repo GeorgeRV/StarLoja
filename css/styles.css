@@ -30,6 +30,52 @@ body{
 	font-family: Starjedi, Arial;
 }
 
+header{
+	background-color: #222222;
+  font-family: Starjedi, Arial;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+header a:hover {
+	color: #FFE81F;
+}
+
+header ul{
+	margin:0;
+	list-style: none;
+}
+
+.menu{
+	padding-left:15;
+	display: flex;
+	justify-content: space-between;
+}
+
+.PagIni{
+	font-family: Stjedise;
+	display: flex;
+	font-size: 120%;
+	padding-right: 10%;
+}
+
+.PagIni img{
+	height: 30px;
+	padding-left: 10px;
+}
+
+.Pags{
+	display: flex;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.Pags a{
+	padding-right: 10px;
+}
 
 .info{
 	margin-top: 20px;
