@@ -1,0 +1,102 @@
+@charset UTF-8
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: Starjedi;
+  src: url(fonts/starjedi/Starjedi.ttf);
+}
+
+@font-face {
+  font-family: Starjout;
+  src: url(fonts/starjout/Starjout.ttf);
+}
+
+@font-face {
+  font-family: Stjedise;
+  src: url(fonts/stjedise/STJEDISE.TTF);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+    background-image: url("images/fundo_vader.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+	font-family: Starjedi, Arial;
+}
+
+
+.info{
+	margin-top: 20px;
+	margin-left: 40%;
+	margin-bottom: 20px;
+	padding-bottom: 100px;
+	color: white;
+	border-radius: 7px;
+}
+
+.info h1{
+	color: #FFE81F;
+	text-align: center;
+	padding-top: 50px;
+}
+
+input[type = text],
+input[type = email],
+textarea{
+	background-color: #000000;
+	color: white;
+	padding: 10px 25px;
+	font-family: Arial;
+	font-size: 105%;
+	width: 100%;
+}
+
+fieldset{
+	border: none;
+}
+
+textarea{
+	height: 120px;
+}
+
+#botao{
+	padding-top: 25px;
+	text-align: center;
+}
+
+input[type=submit] {
+	font-size: 175%;
+	font-family: Stjedise, Starjout;
+	color: FFE81F;
+	background-color: black;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #FFE81F;
+	color: black;
+}
+
+
+footer{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	background: #222222;
+	color: white;
+}
+
+footer > img{
+	height: 75px;
+}
+
+footer > p{
+	padding: 10px;
+}
